@@ -4,4 +4,7 @@
     - name: Hello Message 2
       debug:
         msg: "Hello World! 222"
+    - name: get ls dir tmp
+      shell: ls /tmp
+        
 
